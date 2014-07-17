@@ -1,7 +1,9 @@
 httpget_incremental
 ===================
 
-Little proof of concept, python script to send multiple HTTP GET requests by increasing the number of params within the GET.
+Little proof of concept, it sends multiple HTTP GET requests by increasing the number of params within the GET.
+The params value is a random integer.
+My first Python script. Perhaps you find out some rookie mistakes.
 
 Usage:
 $ python httpget_incremental.py [URL] [num_requests]
