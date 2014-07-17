@@ -4,10 +4,10 @@ httpget_incremental
 Little proof of concept, python script to send multiple HTTP GET requests by increasing the number of params within the GET.
 
 Usage:
-python httpget_incremental.py <URL> <num_requests>
+$ python httpget_incremental.py [URL] [num_requests]
 
 Example:
-$ python httpget_incremental http://target.com/path/ 4
+$ python httpget_incremental.py http://target.com/path/ 4
 
 Output:
 Req:1: http://target.com/path/?id1=8206
