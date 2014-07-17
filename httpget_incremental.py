@@ -1,6 +1,4 @@
-import urllib2
 import sys
-import getopt
 import os
 import pycurl
 import random
